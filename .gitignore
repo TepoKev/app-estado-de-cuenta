@@ -1,0 +1,80 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/.yarn/install-state.gz
+
+# testing
+/frontend/coverage
+
+# next.js
+/frontend/.next/
+/frontend/out/
+
+# production
+/frontend/build
+
+# misc
+/frontend/.DS_Store
+/frontend/*.pem
+
+# debug
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# local env files
+/frontend/.env*.local
+
+# vercel
+/frontend/.vercel
+
+# typescript
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
+
+/backend/*.swp
+/backend/*.*~
+/backend/project.lock.json
+/backend/.DS_Store
+/backend/*.pyc
+/backend/nupkg/
+
+# Visual Studio Code
+/backend/.vscode/
+
+# Rider
+/backend/.idea/
+
+# Visual Studio
+/backend/.vs/
+
+# Fleet
+/backend/.fleet/
+
+# Code Rush
+/backend/.cr/
+
+# User-specific files
+/backend/*.suo
+/backend/*.user
+/backend/*.userosscache
+/backend/*.sln.docstates
+
+# Build results
+/backend/[Dd]ebug/
+/backend/[Dd]ebugPublic/
+/backend/[Rr]elease/
+/backend/[Rr]eleases/
+/backend/x64/
+/backend/x86/
+/backend/build/
+/backend/bld/
+/backend/[Bb]in/
+/backend/[Oo]bj/
+/backend/[Oo]ut/
+/backend/msbuild.log
+/backend/msbuild.err
+/backend/msbuild.wrn
