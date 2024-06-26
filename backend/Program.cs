@@ -8,6 +8,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<backend.services.interfaces.ICompraService, backend.services.implementations.CompraService>();
+builder.Services.AddScoped<backend.services.interfaces.IPagoService, backend.services.implementations.PagoService>();
+builder.Services.AddScoped<backend.services.interfaces.ITarjetaDeCreditoService, backend.services.implementations.TarjetaDeCreditoService>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
